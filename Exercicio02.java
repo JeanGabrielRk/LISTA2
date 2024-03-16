@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio01 {
+public class Exercicio02 {
 
     public static void executar(){
 
@@ -22,18 +22,6 @@ public class Exercicio01 {
         media = soma / 5;
 
         System.out.println("A media eh: " + media);
-
-        for (i = 0; i < 5; i++){
-            if (numeros[i] > media){
-                System.out.println("Maior: " + numeros[i]);
-            }
-            else if (numeros[i] < media){
-                System.out.println("Menor: " + numeros[i]);
-            }
-            if (numeros[i] == media){
-                System.out.println("Igual: " + numeros[i]);
-            }
-        }
         
     }
 
